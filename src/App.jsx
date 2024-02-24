@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+// import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import './About.jsx'
@@ -18,7 +18,7 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 2)}>
-          updated v27 count is .. {count}
+          updated v28 count is .. {count}
         </button>
         <button>
           <a href="/about">About</a>
